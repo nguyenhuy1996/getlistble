@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84013F6D1D60723A0090909F /* TagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84013F6C1D60723A0090909F /* TagTableViewCell.swift */; };
+		84013F6F1D6073A40090909F /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84013F6E1D6073A40090909F /* Tag.swift */; };
+		84348E4B1D66EF16004261EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84348E491D66EF16004261EB /* Main.storyboard */; };
+		8495918A1D607ADA0035C811 /* null.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849591891D607ADA0035C811 /* null.jpg */; };
 		84FCFB841D5D66E600B5C8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFB831D5D66E600B5C8D9 /* AppDelegate.swift */; };
 		84FCFB861D5D66E600B5C8D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFB851D5D66E600B5C8D9 /* ViewController.swift */; };
-		84FCFB891D5D66E600B5C8D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FCFB871D5D66E600B5C8D9 /* Main.storyboard */; };
 		84FCFB8B1D5D66E600B5C8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FCFB8A1D5D66E600B5C8D9 /* Assets.xcassets */; };
 		84FCFB8E1D5D66E600B5C8D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FCFB8C1D5D66E600B5C8D9 /* LaunchScreen.storyboard */; };
+		84FCFB961D5D66FE00B5C8D9 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FCFB951D5D66FE00B5C8D9 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84013F6C1D60723A0090909F /* TagTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TagTableViewCell.swift; path = ../TagTableViewCell.swift; sourceTree = "<group>"; };
+		84013F6E1D6073A40090909F /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tag.swift; path = ../Tag.swift; sourceTree = "<group>"; };
+		84348E4A1D66EF16004261EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849591891D607ADA0035C811 /* null.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = null.jpg; path = ../../../../Desktop/null.jpg; sourceTree = "<group>"; };
 		84FCFB801D5D66E600B5C8D9 /* getlistble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getlistble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FCFB831D5D66E600B5C8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FCFB851D5D66E600B5C8D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84FCFB881D5D66E600B5C8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84FCFB8A1D5D66E600B5C8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FCFB8D1D5D66E600B5C8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FCFB8F1D5D66E600B5C8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FCFB951D5D66FE00B5C8D9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FCFB961D5D66FE00B5C8D9 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +47,7 @@
 		84FCFB771D5D66E600B5C8D9 = {
 			isa = PBXGroup;
 			children = (
+				84FCFB951D5D66FE00B5C8D9 /* CoreBluetooth.framework */,
 				84FCFB821D5D66E600B5C8D9 /* getlistble */,
 				84FCFB811D5D66E600B5C8D9 /* Products */,
 			);
@@ -54,10 +64,13 @@
 		84FCFB821D5D66E600B5C8D9 /* getlistble */ = {
 			isa = PBXGroup;
 			children = (
+				84013F6E1D6073A40090909F /* Tag.swift */,
+				84013F6C1D60723A0090909F /* TagTableViewCell.swift */,
 				84FCFB831D5D66E600B5C8D9 /* AppDelegate.swift */,
 				84FCFB851D5D66E600B5C8D9 /* ViewController.swift */,
-				84FCFB871D5D66E600B5C8D9 /* Main.storyboard */,
+				849591891D607ADA0035C811 /* null.jpg */,
 				84FCFB8A1D5D66E600B5C8D9 /* Assets.xcassets */,
+				84348E491D66EF16004261EB /* Main.storyboard */,
 				84FCFB8C1D5D66E600B5C8D9 /* LaunchScreen.storyboard */,
 				84FCFB8F1D5D66E600B5C8D9 /* Info.plist */,
 			);
@@ -96,6 +109,7 @@
 				TargetAttributes = {
 					84FCFB7F1D5D66E600B5C8D9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 82B28QUV3G;
 					};
 				};
 			};
@@ -123,8 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FCFB8E1D5D66E600B5C8D9 /* LaunchScreen.storyboard in Resources */,
+				8495918A1D607ADA0035C811 /* null.jpg in Resources */,
 				84FCFB8B1D5D66E600B5C8D9 /* Assets.xcassets in Resources */,
-				84FCFB891D5D66E600B5C8D9 /* Main.storyboard in Resources */,
+				84348E4B1D66EF16004261EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84013F6F1D6073A40090909F /* Tag.swift in Sources */,
+				84013F6D1D60723A0090909F /* TagTableViewCell.swift in Sources */,
 				84FCFB861D5D66E600B5C8D9 /* ViewController.swift in Sources */,
 				84FCFB841D5D66E600B5C8D9 /* AppDelegate.swift in Sources */,
 			);
@@ -143,10 +160,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84FCFB871D5D66E600B5C8D9 /* Main.storyboard */ = {
+		84348E491D66EF16004261EB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84FCFB881D5D66E600B5C8D9 /* Base */,
+				84348E4A1D66EF16004261EB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -249,10 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = getlistble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hitstorevn.com.getlistble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +280,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = getlistble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hitstorevn.com.getlistble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +309,7 @@
 				84FCFB941D5D66E600B5C8D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
